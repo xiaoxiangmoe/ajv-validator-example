@@ -1,0 +1,21 @@
+{
+    "name": "ajv-validator-example",
+    "version": "1.0.0",
+    "type": "module",
+    "repository": "https://github.com/xiaoxiangmoe/ajv-validator-example.git",
+    "author": "ZHAO Jin-Xiang <xiaoxiangmoe@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "run": "node --loader ts-node/esm src/index.ts"
+    },
+    "dependencies": {
+        "ajv": "^8.12.0"
+    },
+    "devDependencies": {
+        "@kwai-explore/tsconfig": "^0.0.2",
+        "@types/node": "^20.1.1",
+        "ajv-formats": "^2.1.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+    }
+}

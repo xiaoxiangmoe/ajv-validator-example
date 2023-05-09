@@ -1,0 +1,12 @@
+{
+    "extends": "@kwai-explore/tsconfig/tsconfig.json",
+    "compilerOptions": {
+        "moduleResolution": "nodenext",
+        "skipLibCheck": true,
+        "lib": ["ESNext"],
+        "types": ["node"],
+        "noEmit": true
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules"]
+}
